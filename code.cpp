@@ -1,18 +1,16 @@
 #include<iostream>
 using namespace std;
     int main(){
-        int n;
-        cout <<"Enter the value of n :";
-        cin>>n;
-        for(int i=0;i<n;i++){
-            int sum=0;
-            for(int j=1;j<=i+1;j++){
-                sum=sum+1;
-                cout<<sum;
+        int a;
+        cout<<"Enter a number A: ";
+        cin>>a;
+        int n=0;
+        for(int i=1;i<=5;i++){
+            for(int j=1;j<=i;j++){
+                n=n+1;
+                cout<<n<<" ";
             }
-            sum--;
             cout<<endl;
         }
         return 0;
     }
-    
