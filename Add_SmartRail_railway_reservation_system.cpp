@@ -108,7 +108,9 @@ void cancelTicket(int* seats, Passenger*& head) {
     }
 
     Passenger* temp = head;
-    Passenger* previous = nullptr;
+    Passenger* previous = nullptr
+    
+    ;
 
     while (temp != nullptr && temp->seatNumber != seat) {
         previous = temp;
